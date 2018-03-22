@@ -23,12 +23,12 @@ pip install seaborn
 pip install stockstats
 
 ## File description
-### Files for final submission
+### Files to review for final submission
 ProjectProposal.pdf - Capstone project proposal
 
 ProjectReport.pdf - Capstone project report
 
-capstone_submission.ipynb - IPython notebook used to implement the model
+capstone_ipython_notebook.ipynb - IPython notebook used to implement the model
 
 capstone_support.py - Python module imported to the main notebook
 
@@ -38,16 +38,19 @@ capstone_parameter_tuning.ipynb - Used to generate the consolidated_exp.csv
 ### Other Artifacts used for the project
 stock_data/*.csv -> contains all processed stock data
 
-capstone_evaluation_histor.csv -> model evaluation loss history results
+capstone_evaluation_history.csv -> model evaluation loss history results
 
 capstone_evaluation_scores.csv -> model evaluation score results
 
 consolidated_exp.csv -> These are results from my parameter tuning exercise. Please avoid having to run them all as they take considerable amount of time.
 
+### Redundant and Not needed to be reviewed
+capstone_report_and_code.ipynb -> Contains both code and report together
+
 ## Steps to download and run
 git clone the project
 
-Run the Ipython Notebook: capstone_submission.ipynb
+Run the Ipython Notebook: capstone_ipython_notebook.ipynb
 
 Note:
 I have already saved off results of the runs locally (see Other artifacts section above)
